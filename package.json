@@ -9,8 +9,14 @@
   },
   "dependencies": {
     "gatsby": "next",
+    "gatsby-plugin-typography": "^1.7.19",
+    "gatsby-transformer-json": "^1.0.20",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17",
+    "typography-theme-bootstrap": "^0.16.7",
+    "typography-theme-lawton": "^0.15.10"
   },
   "husky": {
     "hooks": {
