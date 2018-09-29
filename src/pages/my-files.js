@@ -7,7 +7,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>My Site's Files</h1>
+        <h1>{"My Site's Files"}</h1>
         <p>Queried by Gatsby's source-filesystem plugin</p>
         <table>
           <thead>
