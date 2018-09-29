@@ -8,15 +8,20 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "emotion": "^9.2.10",
+    "emotion-server": "^9.2.10",
     "gatsby": "next",
+    "gatsby-plugin-emotion": "^2.0.5",
     "gatsby-plugin-typography": "^1.7.19",
     "gatsby-transformer-json": "^1.0.20",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.10",
     "react-typography": "^0.16.13",
     "typography": "^0.16.17",
     "typography-theme-bootstrap": "^0.16.7",
     "typography-theme-fairy-gates": "^0.15.11",
+    "typography-theme-kirkham": "^0.16.3",
     "typography-theme-lawton": "^0.15.10"
   },
   "husky": {
