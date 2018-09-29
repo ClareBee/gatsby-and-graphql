@@ -13,6 +13,7 @@
     "gatsby": "next",
     "gatsby-plugin-emotion": "^2.0.5",
     "gatsby-plugin-typography": "^1.7.19",
+    "gatsby-source-filesystem": "^2.0.1",
     "gatsby-transformer-json": "^1.0.20",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
