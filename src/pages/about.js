@@ -5,7 +5,7 @@ import Header from "../components/header";
 
 export default ({ data }) => (
   <Layout>
-    <Header headerText={data.site.siteMetadata.title} />
+    <Header headerText={data.site.siteMetadata.about} />
     <p>Such wow. Very React.</p>
   </Layout>
 );
@@ -14,7 +14,7 @@ export const query = graphql`
   query {
     site {
       siteMetadata {
-        title
+        about
       }
     }
   }
