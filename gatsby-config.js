@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsy & GraphQL`,
-    about: `About`
+    title: `Gatsby & GraphQL`,
+    about: `About`,
+    pandas: `Pandas Eating Lots`
   },
   plugins: [
     {
@@ -11,6 +12,7 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,

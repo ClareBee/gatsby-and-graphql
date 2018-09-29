@@ -3,27 +3,29 @@ import Layout from "../components/layout";
 
 export default () => (
   <Layout>
-    <h1>Richard Hamming on Luck</h1>
+    <h1>Twyla Tharp on Creativity</h1>
     <div>
       <p>
-        From Richard Hamming’s classic and must-read talk, “
-        <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
-          You and Your Research
+        US choreographer and author of "
+        <a href="https://www.amazon.co.uk/Creative-Habit-Learn-Use-Life/dp/0743235274">
+          The Creative Habit
         </a>
-        ”.
+        "
       </p>
       <blockquote>
         <p>
-          There is indeed an element of luck, and no, there isn’t. The prepared
-          mind sooner or later finds something important and does it. So yes, it
-          is luck.{" "}
-          <em>
-            The particular thing you do is luck, but that you do something is
-            not.
-          </em>
+          Creativity is more about taking the facts, fictions, and feelings we
+          store away and finding new ways to connect them. What we're talking
+          about here is metaphor. Metaphor is the lifeblood of all art, if it is
+          not art itself. Metaphor is our vocabulary for connecting what we are
+          experiencing now with what we have experienced before.
+          <strong>
+            &nbsp; It's not only how we express what we remember, it's how we
+            interpret it - for ourselves and others.
+          </strong>
         </p>
       </blockquote>
     </div>
-    <p>Posted April 09, 2011</p>
+    <p>Posted September 2018</p>
   </Layout>
 );
